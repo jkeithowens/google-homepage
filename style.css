@@ -1,0 +1,125 @@
+html{
+  height:100%;
+}
+
+body{
+  color:black;
+  font-family:Arial;
+  font-size:16px;
+  line-height:1.6em;
+  margin:0;
+}
+
+.icon{
+  vertical-align: middle;
+}
+
+.container{
+  width:90%;
+  margin:auto;
+  overflow:hidden;
+  height:100%;
+}
+
+.navbarLeft {
+  float: left;
+  width:50%;
+}
+
+.navbarRight {
+  float: right;
+  width:50%;
+text-align: right;
+}
+
+#navbar ul{
+  padding:0;
+  List-style:none;
+}
+
+#navbar li{
+  display: inline;
+}
+
+#navbar a{
+  color:black;
+  text-decoration:none;
+  font-size: 18px;
+  padding-right: 15px;
+  vertical-align: 50%;
+}
+
+
+#main-footer{
+  background: rgb(215, 215, 215, .5);
+  color:black;
+  padding:0px 0px;
+  margin-top: 00px;
+position:absolute;
+bottom: 0px;
+width: 100%;
+}
+
+#googleLogo {
+  width:40%;
+  position: relative;
+  left: 30%;
+}
+
+#searchbox {
+  margin-top: 15px;
+  width:50%;
+  position: relative;
+  left: 25%;
+}
+
+#searchbox{
+  height: 30px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px rgb(215, 215, 215, .5);
+  color:black;
+  font-family:Arial;
+  font-size:25px;
+ border-color:rgb(215, 215, 215, .2);
+}
+
+#main button {
+  width:15%;
+  position: relative;
+  left: 35%;
+  margin-top: 20px;
+  padding:10px;
+  border-color: white;
+  border-radius: 2px;
+  border:none !important;
+  box-shadow:none !important;
+  background: rgb(215, 215, 215, .5);
+}
+
+#navbar button {
+  background: rgb(45, 82, 214);
+  padding:10px;
+  color: white;
+  border-radius: 2px;
+  border:none !important;
+  box-shadow:none !important;
+}
+
+#main{
+  position:fixed;
+  bottom: 250px;
+  background: white;
+  width: 90%;
+}
+
+@media(max-width:600px){
+  #main{
+    width: 100%;
+    float:none;
+  }
+
+}
+
+.icon{
+  height:30px;
+}
